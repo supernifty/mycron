@@ -1,0 +1,4 @@
+# example for testing
+# format is:
+# min hour day month dow command
+5-8,10-50,55 * * * * echo "hello"

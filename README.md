@@ -18,7 +18,7 @@ pip install git+https://github.com/supernifty/mycron
 
 ## Usage
 ```
-mycron < crontab
+mycron < example.cron
 ```
 
 To get help on options, run:
