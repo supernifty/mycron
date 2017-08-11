@@ -51,12 +51,12 @@ def run_command(command, dry, background=True):
   if dry:
     logging.info('would run %s', command)
   else:
-    logging.debug('running "%s"...', command)
+    logging.info('running "%s"...', command)
     if background:
       os.system("{} &".format(command))
     else:
       os.system(command)
-    logging.debug('running "%s": done', command)
+    logging.info('running "%s": done', command)
 
 def mycron(fh_in, dry, background):
   '''
